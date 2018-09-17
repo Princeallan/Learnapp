@@ -22,11 +22,11 @@
             <div class="col-md-8">
                 <div class="card">
                     <div class="card-header">
-                        <strong>Create Product</strong></div>
+                        <strong>Create Post</strong></div>
                     <div class="card-body">
                         <form class="form-horizontal" action="" method="post" enctype="multipart/form-data">
                             <div class="form-group row">
-                                <label class="col-md-3 col-form-label" for="text-input">Product Name</label>
+                                <label class="col-md-3 col-form-label" for="text-input">Post Title</label>
                                 <div class="col-md-9">
                                     <input class="form-control" id="text-input" type="text" name="text-input" placeholder="Text">
                                 </div>
@@ -43,13 +43,13 @@
                                 </div>
                             </div>
                             <div class="form-group row">
-                                <label class="col-md-3 col-form-label" for="textarea-input">Product Description</label>
+                                <label class="col-md-3 col-form-label" for="textarea-input">Body</label>
                                 <div class="col-md-9">
                                     <textarea class="form-control" id="textarea-input" name="textarea-input" rows="9" placeholder="Content.."></textarea>
                                 </div>
                             </div>
                             <div class="form-group row">
-                                <label class="col-md-3 col-form-label" for="file-multiple-input">Product Images</label>
+                                <label class="col-md-3 col-form-label" for="file-multiple-input">Images</label>
                                 <div class="col-md-9">
                                     <input id="file-multiple-input" type="file" name="file-multiple-input" multiple="">
                                 </div>
