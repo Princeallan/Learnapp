@@ -10532,6 +10532,46 @@ a.text-dark:focus {
   color: #888;
 }
 
+.contact-form {
+  margin: 6em 0;
+  position: relative;
+}
+
+.contact-form h1 {
+  padding: 2em 1px;
+  color: #F97300;
+}
+
+.contact-form .right {
+  max-width: 600px;
+}
+
+.contact-form .right .btn-secondary {
+  background: #F97300;
+  color: #fff;
+  border: 0;
+}
+
+.contact-form .right .form-control::-webkit-input-placeholder {
+  color: #888;
+  font-size: 16px;
+}
+
+.contact-form .right .form-control:-ms-input-placeholder {
+  color: #888;
+  font-size: 16px;
+}
+
+.contact-form .right .form-control::-ms-input-placeholder {
+  color: #888;
+  font-size: 16px;
+}
+
+.contact-form .right .form-control::placeholder {
+  color: #888;
+  font-size: 16px;
+}
+
 .navbar-laravel {
   background-color: #fff;
   -webkit-box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
