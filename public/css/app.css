@@ -10471,21 +10471,60 @@ a.text-dark:focus {
   }
 }
 
-.team {
+.carousel {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.carousel .carousel-inner {
+  height: 600px;
+  width: 90%;
+}
+
+.carousel .carousel-inner .carousel-item {
+  background-position: center;
+  background-size: cover;
+  height: inherit;
+  background-repeat: no-repeat;
+}
+
+.magazine-section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.magazine-section .row-width {
+  width: 90%;
+}
+
+.magazine-section .row-width h1 {
+  color: #F97300;
+}
+
+.magazine-section .row-width .section-2 {
   margin: 4em 0;
   position: relative;
 }
 
-.team h1 {
-  color: #F97300;
-  margin: 2em;
-}
-
-.team .item {
+.magazine-section .row-width .section-2 .item {
   position: relative;
 }
 
-.team .des {
+.magazine-section .row-width .section-2 .des {
   background: #F97300;
   color: #fff;
   text-align: center;
