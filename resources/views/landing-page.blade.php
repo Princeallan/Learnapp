@@ -4,11 +4,11 @@
 
     <div id="carouselExampleControls" class="carousel slide mb-4" data-ride="carousel">
         <div class="carousel-inner">
-            <div class="carousel-item active" style="background-image: url({{asset('img/Magazine97.jpg')}});">
+            <div class="carousel-item img-shape active" style="background-image: url({{asset('img/Magazine97.jpg')}});">
             </div>
-            <div class="carousel-item" style="background-image: url({{asset('img/abo.jpg')}});">
+            <div class="carousel-item img-shape" style="background-image: url({{asset('img/abo.jpg')}});">
             </div>
-            <div class="carousel-item" style="background-image: url({{asset('img/Magazine97.jpg')}});">
+            <div class="carousel-item img-shape" style="background-image: url({{asset('img/Magazine97.jpg')}});">
             </div>
         </div>
         <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
@@ -27,7 +27,7 @@
             <div class="row">
                 <div class="col-md-4 col-sm-6 mb-4">
                     <div class="card">
-                        <img class="card-img-top" src="{{asset('img/Magazine97.jpg')}}" alt="Card image cap">
+                        <img class="card-img-top img-shape" src="{{asset('img/Magazine97.jpg')}}" alt="Card image cap">
                         <div class="card-body">
                             <a href="#" class="card-link">Download</a>
                             <a href="#" class="card-link">Read</a>
@@ -36,7 +36,7 @@
                 </div>
                 <div class="col-md-4 col-sm-6 mb-4">
                     <div class="card">
-                        <img class="card-img-top" src="{{asset('img/Magazine97.jpg')}}" alt="Card image cap">
+                        <img class="card-img-top img-shape" src="{{asset('img/Magazine97.jpg')}}" alt="Card image cap">
                         <div class="card-body">
                             <a href="#" class="card-link">Download</a>
                             <a href="#" class="card-link">Read</a>
@@ -45,7 +45,7 @@
                 </div>
                 <div class="col-md-4 col-sm-6 mb-4">
                     <div class="card">
-                        <img class="card-img-top" src="{{asset('img/Magazine97.jpg')}}" alt="Card image cap">
+                        <img class="card-img-top img-shape" src="{{asset('img/Magazine97.jpg')}}" alt="Card image cap">
                         <div class="card-body">
                             <a href="#" class="card-link">Download</a>
                             <a href="#" class="card-link">Read</a>
@@ -58,7 +58,7 @@
             <h1 class="text-center">Issues</h1>
             <div class="row section-2">
                 <div class="col-lg-4 col-md-4 col-sm-12 item">
-                    <img src="{{asset('img/Magazine97.jpg')}}" class="img-fluid" alt="team">
+                    <img src="{{asset('img/Magazine97.jpg')}}" class="img-fluid img-shape" alt="team">
                     <div class="des">
                         Magazine Title 1
                     </div>
@@ -66,7 +66,7 @@
                     <a href="#">Read</a>
                 </div>
                 <div class="col-lg-4 col-md-4 col-sm-12 item">
-                    <img src="{{asset('img/Magazine97.jpg')}}" class="img-fluid" alt="team">
+                    <img src="{{asset('img/Magazine97.jpg')}}" class="img-fluid img-shape" alt="team">
                     <div class="des">
                         Magazine Title 2
                     </div>
@@ -74,7 +74,7 @@
                     <a href="#">Read</a>
                 </div>
                 <div class="col-lg-4 col-md-4 col-sm-12 item">
-                    <img src="{{asset('img/Magazine97.jpg')}}" class="img-fluid" alt="team">
+                    <img src="{{asset('img/Magazine97.jpg')}}" class="img-fluid img-shape" alt="team">
                     <div class="des">
                         Magazine Title 3
                     </div>
